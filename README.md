@@ -10,15 +10,15 @@ To address this challenge, we've developed a series of AIR components for Flash 
 The sample application includes a working AIR browser application that implements the AIR components. Beyond being a usable sample as presented, the source files are provided so that you may customize and expand upon the work.
 
 - app-storage folder
-- catalog folder (storage for local content)
-- config folder (stores configuration XML)
-- help (stores help content)
-- images (stores image content)
-- Error.html
-- Start.html
-- TypeError.html
+  * catalog folder (storage for local content)
+  * config folder (stores configuration XML)
+  * help (stores help content)
+  * images (stores image content)
+  * Error.html
+  * Start.html
+  * TypeError.html
 - com folder (ActionScript package)
-- AIRBrowser.air (application installer)
+- icons folder (app icons)
 - AIRBrowser.fla (source file)
 - AIRBrowser-app.xml (descriptor file)
 
