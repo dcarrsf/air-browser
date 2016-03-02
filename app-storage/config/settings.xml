@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+	
+	<!-- 
+	Enter the title for the browser here.
+	-->
+	<title>AIR Browser</title>
+	<!-- 
+	Set this property to 1 to show the title in the chrome or 0 to omit it.
+	-->
+	<useTitleOnChrome>1</useTitleOnChrome>
+	<!-- 
+	Edit the location of the default error page here.
+	-->
+	<errorPage>app-storage/Error.html</errorPage>
+	<!-- 
+	Edit the location of the default type error page here.
+	-->
+	<errorPageType>app-storage/TypeError.html</errorPageType>
+	<!-- 
+	Edit the location of the default start page here.
+	-->
+	<startPage>app-storage/Start.html</startPage>
+	<!-- 
+	Edit the timeout limit (in seconds) here.
+	-->
+	<timeOutLimit>30</timeOutLimit>
+	<!-- 
+	Edit the location bar properties here.
+	-->
+	<location>
+		<show>1</show>
+		<contextMenu>app-storage/config/contextMenu.xml</contextMenu>
+		<tooltips>
+			<back>Back</back>
+			<forward>Forward</forward>
+			<reload>Reload</reload>
+			<cancel>Stop</cancel>
+			<bookmark>Add Bookmark</bookmark>
+			<home>Home</home>
+		</tooltips>
+	</location>
+	<!-- 
+	Edit the status bar properties here.
+	-->
+	<status>
+		<show>1</show>
+		<contextMenu>app-storage/config/contextMenu.xml</contextMenu>
+		<messages>
+			<waiting>Waiting for </waiting>
+			<done>Done </done>
+			<error>Error </error>
+		</messages>
+	</status>
+	<!-- 
+	Edit the about us panel properties here.
+	-->
+	<about>
+		<title>About AIR Browser</title>
+		<source>app-storage/images/AboutUs.swf</source>
+		<width>479</width>
+		<height>322</height>
+	</about>
+	<!-- 
+	Edit the help panel properties here.
+	-->
+	<help>
+		<title>Contents and Index</title>
+		<source>app-storage/help/index.html</source>
+		<width>472</width>
+		<height>600</height>
+	</help>
+	
+</settings>

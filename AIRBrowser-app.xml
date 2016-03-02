@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<application xmlns="http://ns.adobe.com/air/application/1.5">
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  <!-- 
+	Enter general application information here.
+	-->
+	<id>com.adobe.example.AIRBrowser</id>
+	<version>1.0</version>
+	<filename>AIRBrowser</filename>
+	<name>AIRBrowser</name>
+	
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  <!-- 
+	Enter localized description here.
+	-->
+	<description>The AIR browser demonstrates a sample of an AIR application built in Flash CS4.</description>
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  <!-- 
+	Enter copyright information here.
+	-->
+	<copyright>Copyright 2009 (c) Dan Carr Design</copyright>
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  <!-- 
+	Enter the initial state for the window here.
+	-->
+	<initialWindow>
+		  <content>AIRBrowser.swf</content>
+		  <systemChrome>standard</systemChrome>
+		  <transparent>false</transparent>
+		  <visible>true</visible>
+	</initialWindow>
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  <!-- 
+	Enter custom icon paths here.
+	-->
+	<icon>
+		  <image128x128>AppIconsForAIRPublish/icon_128.png</image128x128>
+		  <image48x48>AppIconsForAIRPublish/icon_48.png</image48x48>
+		  <image32x32>AppIconsForAIRPublish/icon_32.png</image32x32>
+		  <image16x16>AppIconsForAIRPublish/icon_16.png</image16x16>
+	</icon>
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  <!-- 
+	Enable update and browser invocation here.
+	-->
+	<customUpdateUI>true</customUpdateUI>
+	<allowBrowserInvocation>false</allowBrowserInvocation>
+
+
+
+
+
+
+
+
+
+</application>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- 
+Edit your catalog items here. The catalog defines the navigation list 
+for the browser. Enter the page title (or desired page title) in the 
+<label> field and add a <url> containing the URL to the page in the
+data node. You can use absolute URLs for remote links and relative URLs
+for local links. Be sure that if you enter relative paths they will work
+on the target OS of your audience.
+-->
+<items>
+	<!-- URL #0 (HOME - DEFAULT START PAGE)-->
+	<item>
+		<name>catalog_0</name>
+		<label>Welcome to AIR Browser</label>
+		<enabled>1</enabled>
+		<checked/>
+		<data>
+			<url>app-storage/Start.html</url>
+		</data>
+	</item>
+	<!-- URL #1 AIR Home-->
+	<item>
+		<name>catalog_1</name>
+		<label>Adobe - Adobe AIR</label>
+		<enabled>1</enabled>
+		<checked/>
+		<data>
+			<url>http://www.adobe.com/products/air/</url>
+		</data>
+	</item>
+	<!-- URL #2 AIR Developer Center-->
+	<item>
+		<name>catalog_2</name>
+		<label>Adobe - Adobe AIR Developer Center</label>
+		<enabled>1</enabled>
+		<checked/>
+		<data>
+			<url>http://www.adobe.com/devnet/air/</url>
+		</data>
+	</item>
+	<!-- URL #3 AIR Download-->
+	<item>
+		<name>catalog_3</name>
+		<label>Adobe - Download Adobe AIR</label>
+		<enabled>1</enabled>
+		<checked/>
+		<data>
+			<url>http://get.adobe.com/air/</url>
+		</data>
+	</item>
+	<!-- URL #4 AIR on Adobe Labs-->
+	<item>
+		<name>catalog_4</name>
+		<label>Adobe Labs - Adobe AIR Product Center</label>
+		<enabled>1</enabled>
+		<checked/>
+		<data>
+			<url>http://labs.adobe.com/technologies/air/</url>
+		</data>
+	</item>
+	<!-- URL #5 AIR Documentation-->
+	<item>
+		<name>catalog_5</name>
+		<label>Adobe AIR 1.5 * Using Flash CS4</label>
+		<enabled>1</enabled>
+		<checked/>
+		<data>
+			<url>http://help.adobe.com/en_US/AIR/1.5/devappsflash/</url>
+		</data>
+	</item>
+	<!-- URL #6 ActionScript 3.0/AIR Documentation-->
+	<item>
+		<name>catalog_6</name>
+		<label>ActionScript 3.0 Language and Components Reference</label>
+		<enabled>1</enabled>
+		<checked/>
+		<data>
+			<url>http://help.adobe.com/en_US/AS3LCR/Flash_10.0/index.html</url>
+		</data>
+	</item>
+</items>

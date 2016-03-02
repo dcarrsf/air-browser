@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<items>
+	<!--------------------->
+	<!-- HIDE -->
+	<item>
+		<name>hide</name>
+		<label>Hide</label>
+		<enabled>1</enabled>
+		<checked/>
+		<keyEquivalent/>
+		<keyEquivalentModifiers/>
+		<data/>
+	</item>
+</items>

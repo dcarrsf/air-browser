@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- 
+Edit your default bookmarks here. To remove bookmarks from the initial installation,
+leave the bookmarks XML file in the config folder, but delete the contents. Enter the 
+page title (or desired page title) in the <label> field and add a <url> containing the 
+URL to the page in the data node. You can use absolute URLs for remote links and 
+relative URLs for local links. Be sure that if you enter relative paths they will work
+on the target OS of your audience.
+-->
+<items>
+  <item>
+    <name>bookmarks_0</name>
+    <label>Dan Carr Design - ActionScript Programming and Training</label>
+    <enabled>1</enabled>
+    <checked/>
+    <data>
+      <url>http://www.dancarrdesign.com/</url>
+    </data>
+  </item>
+</items>

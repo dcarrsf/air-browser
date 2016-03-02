@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- 
+Edit the menubar here. You can delete any of the menu items to 
+remove the feature from the browser menu.
+-->
+<menus>
+	<menu>
+		<!--------------------->
+		<!-- FILE MENU -->
+		<name>file</name>
+		<label>File</label>
+		<items>
+			<!--------------------->
+			<!-- OPEN -->
+			<item>
+				<name>file_open</name>
+				<label>Open</label>
+				<enabled>1</enabled>
+				<checked/>
+				<keyEquivalent>o</keyEquivalent>
+				<keyEquivalentModifiers>CONTROL,COMMAND</keyEquivalentModifiers>
+				<data/>
+			</item>
+			<!--------------------->
+			<!-- CLOSE -->
+			<item>
+				<name>file_close</name>
+				<label>Close</label>
+				<enabled>1</enabled>
+				<checked/>
+				<keyEquivalent>w</keyEquivalent>
+				<keyEquivalentModifiers>CONTROL,COMMAND</keyEquivalentModifiers>
+				<data/>
+			</item>
+			<!--------------------->
+			<item>
+				<isSeparator>1</isSeparator>
+			</item>
+			<!--------------------->
+			<!-- PRINT -->
+			<item>
+				<name>file_print</name>
+				<label>Print</label>
+				<enabled>1</enabled>
+				<checked/>
+				<keyEquivalent>p</keyEquivalent>
+				<keyEquivalentModifiers>CONTROL,COMMAND</keyEquivalentModifiers>
+				<data/>
+			</item>
+			<!--------------------->
+			<item>
+				<isSeparator>1</isSeparator>
+			</item>
+			<!--------------------->
+			<!-- IMPORT (SUBMENU) -->
+			<item>
+				<name>file_import</name>
+				<label>Import Bookmarks</label>
+				<enabled>1</enabled>
+				<checked/>
+				<keyEquivalent/>
+				<keyEquivalentModifiers/>
+				<data/>
+				<menu>
+					<!--------------------->
+					<!-- IMPORT -->
+					<name>import</name>
+					<label>Import</label>
+					<items>
+						<!--------------------->
+						<!-- IMPORT BOOKMARKS -->
+						<item>
+							<name>import_bookmarks</name>
+							<label>Import Bookmarks</label>
+							<enabled>1</enabled>
+							<checked/>
+							<keyEquivalent/>
+							<keyEquivalentModifiers/>
+							<data/>
+						</item>
+						<!--------------------->
+						<!-- IMPORT CATALOG -->
+						<item>
+							<name>import_catalog</name>
+							<label>Import Catalog</label>
+							<enabled>1</enabled>
+							<checked/>
+							<keyEquivalent/>
+							<keyEquivalentModifiers/>
+							<data/>
+						</item>
+					</items>
+				</menu>
+			</item>
+			<!--------------------->
+			<!-- EXPORT (SUBMENU) -->
+			<item>
+				<name>file_export</name>
+				<label>Export Bookmarks</label>
+				<enabled>1</enabled>
+				<checked/>
+				<keyEquivalent/>
+				<keyEquivalentModifiers/>
+				<data/>
+				<menu>
+					<!--------------------->
+					<!-- EXPORT MENU -->
+					<name>export</name>
+					<label>Export</label>
+					<items>
+						<!--------------------->
+						<!-- EXPORT BOOKMARKS -->
+						<item>
+							<name>export_bookmarks</name>
+							<label>Export Bookmarks</label>
+							<enabled>1</enabled>
+							<checked/>
+							<keyEquivalent/>
+							<keyEquivalentModifiers/>
+							<data/>
+						</item>
+						<!--------------------->
+						<!-- EXPORT CATALOG -->
+						<item>
+							<name>export_catalog</name>
+							<label>Export Catalog</label>
+							<enabled>1</enabled>
+							<checked/>
+							<keyEquivalent/>
+							<keyEquivalentModifiers/>
+							<data/>
+						</item>
+					</items>
+				</menu>
+			</item>
+			<!--------------------->
+			<item>
+				<isSeparator>1</isSeparator>
+			</item>
+			<!--------------------->
+			<!-- EXIT -->
+			<item>
+				<name>file_exit</name>
+				<label>Exit</label>
+				<enabled>1</enabled>
+				<checked/>
+				<keyEquivalent>q</keyEquivalent>
+				<keyEquivalentModifiers>CONTROL,COMMAND</keyEquivalentModifiers>
+				<data/>
+			</item>
+		</items>
+	</menu>
+	<menu>
+		<!--------------------->
+		<!-- GO TO MENU -->
+		<name>goto</name>
+		<label>Go To</label>
+		<items>
+			<!--------------------->
+			<!-- FORWARD -->
+				<item>
+				<name>catalog_forward</name>
+				<label>Forward</label>
+				<enabled>1</enabled>
+				<checked/>
+				<keyEquivalent>right arrow</keyEquivalent>
+				<keyEquivalentModifiers/>
+				<data/>
+			</item>
+			<!--------------------->
+			<!-- BACK -->
+			<item>
+				<name>catalog_back</name>
+				<label>Back</label>
+				<enabled>1</enabled>
+				<checked/>
+				<keyEquivalent>left arrow</keyEquivalent>
+				<keyEquivalentModifiers/>
+				<data/>
+			</item>
+			<!--------------------->
+			<item>
+				<isSeparator>1</isSeparator>
+			</item>
+			<!--------------------->
+			<!-- HOME -->
+			<item>
+				<name>catalog_home</name>
+				<label>Home</label>
+				<enabled>1</enabled>
+				<checked/>
+				<keyEquivalent>home</keyEquivalent>
+				<keyEquivalentModifiers/>
+				<data/>
+			</item>
+			<!--------------------->
+			<item>
+				<isSeparator>1</isSeparator>
+			</item>
+			<!--------------------->
+			<!-- BACK -->
+			<!-- INSTALL GOTO URLs HERE -->
+		</items>
+	</menu>
+	<menu>
+		<!--------------------->
+		<!-- BOOKMARKS MENU -->
+		<name>bookmarks</name>
+		<label>Bookmarks</label>
+		<items>
+			<!--------------------->
+			<!-- ADD BOOKMARK -->
+			<item>
+				<name>bookmarks_add</name>
+				<label>Add Bookmark</label>
+				<enabled>1</enabled>
+				<checked/>
+				<keyEquivalent>b</keyEquivalent>
+				<keyEquivalentModifiers>CONTROL,COMMAND</keyEquivalentModifiers>
+				<data/>
+			</item>
+			<!--------------------->
+			<item>
+				<isSeparator>1</isSeparator>
+			</item>
+			<!--------------------->
+			<!-- MANAGE BOOKMARK -->
+			<item>
+				<name>bookmarks_delete</name>
+				<label>Remove Bookmark</label>
+				<enabled>1</enabled>
+				<checked/>
+				<keyEquivalent>d</keyEquivalent>
+				<keyEquivalentModifiers>CONTROL,COMMAND</keyEquivalentModifiers>
+				<data/>
+			</item>
+			<!--------------------->
+			<item>
+				<isSeparator>1</isSeparator>
+			</item>
+			<!--------------------->
+			<!-- SAVED BOOKMARKS -->
+			<!-- INSTALL BOOKMARKS HERE -->
+		</items>
+	</menu>
+	<menu>
+		<!--------------------->
+		<!-- VIEW MENU -->
+		<name>view</name>
+		<label>View</label>
+		<items>
+			<!--------------------->
+			<!-- LOCATION -->
+			<item>
+				<name>view_location</name>
+				<label>Location Bar</label>
+				<enabled>1</enabled>
+				<checked>1</checked>
+				<keyEquivalent/>
+				<keyEquivalentModifiers/>
+				<data/>
+			</item>
+			<!--------------------->
+			<!-- STATUS -->
+			<item>
+				<name>view_status</name>
+				<label>Status Bar</label>
+				<enabled>1</enabled>
+				<checked>1</checked>
+				<keyEquivalent/>
+				<keyEquivalentModifiers/>
+				<data/>
+			</item>
+			<!--------------------->
+			<item>
+				<isSeparator>1</isSeparator>
+			</item>
+			<!--------------------->
+			<!-- STOP -->
+			<item>
+				<name>view_stop</name>
+				<label>Stop</label>
+				<enabled>1</enabled>
+				<checked/>
+				<keyEquivalent>esc</keyEquivalent>
+				<keyEquivalentModifiers/>
+				<data/>
+			</item>
+			<!--------------------->
+			<!-- REFRESH -->
+			<item>
+				<name>view_refresh</name>
+				<label>Refresh</label>
+				<enabled>1</enabled>
+				<checked/>
+				<keyEquivalent>f5</keyEquivalent>
+				<keyEquivalentModifiers/>
+				<data/>
+			</item>
+			<!--------------------->
+			<item>
+				<isSeparator>1</isSeparator>
+			</item>
+			<!--------------------->
+			<!-- FULL SCREEN -->
+			<item>
+				<name>view_full</name>
+				<label>Full Screen</label>
+				<enabled>1</enabled>
+				<checked/>
+				<keyEquivalent>f11</keyEquivalent>
+				<keyEquivalentModifiers/>
+				<data/>
+			</item>
+		</items>
+	</menu>
+	<menu>
+		<!--------------------->
+		<!-- HELP MENU -->
+		<name>help</name> 
+		<label>Help</label>
+		<items>
+			<!--------------------->
+			<!-- HELP -->
+			<item>
+				<name>help_contents</name>
+				<label>Contents and Index</label>
+				<enabled>1</enabled>
+				<checked/>
+				<keyEquivalent>f1</keyEquivalent>
+				<keyEquivalentModifiers/>
+				<data/>
+			</item>
+			<!--------------------->
+			<item>
+				<isSeparator>1</isSeparator>
+			</item>
+			<!--------------------->
+			<!-- ABOUT -->
+			<item>
+				<name>help_about</name>
+				<label>About AIR Browser</label>
+				<enabled>1</enabled>
+				<checked/>
+				<keyEquivalent/>
+				<keyEquivalentModifiers/>
+				<data/>
+			</item>
+		</items>
+	</menu>
+</menus>
