@@ -12,13 +12,13 @@ The sample application includes a working AIR browser application that implement
 - app-storage folder
   * catalog folder (storage for local content)
   * config folder (stores configuration XML)
-  * help (stores help content)
-  * images (stores image content)
+  * help folder (stores help content)
+  * images folder (stores image content)
   * Error.html
   * Start.html
   * TypeError.html
 - com folder (ActionScript package)
-- icons folder (app icons)
+- icons folder (storage for app icons)
 - AIRBrowser.fla (source file)
 - AIRBrowser-app.xml (descriptor file)
 
